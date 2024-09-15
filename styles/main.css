@@ -1,0 +1,162 @@
+/* global css  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* global css  */
+
+/* navbar css */
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 15px;
+  color: #222;
+  opacity: calc(50%);
+  cursor: pointer;
+}
+
+.first:hover {
+  opacity: calc(100%);
+  color: #222;
+  transition: all 0.7s;
+}
+
+.first h1 {
+  font-weight: 400;
+}
+
+.middle {
+  margin-right: 100px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #222;
+  opacity: calc(50%);
+}
+
+.last {
+  margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.last a {
+  color: #222;
+  opacity: calc(50%);
+  text-decoration: none;
+  margin-right: 10px;
+}
+.last i {
+  opacity: calc(50%);
+  margin-right: 40px;
+  cursor: pointer;
+}
+.last a:hover {
+  opacity: calc(100%);
+  color: #222;
+  transition: all 0.7s;
+}
+.last i:hover {
+  opacity: calc(100%);
+  color: #222;
+  transition: all 0.7s;
+}
+
+/* navbar css */
+
+/* calander */
+#calendar {
+  border-radius: 5px;
+  width: 80%;
+  position: absolute;
+  margin-top: 50px;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* calander */
+
+/* footer  */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 665px;
+  color: #222;
+  opacity: calc(50%);
+}
+
+/* footer  */
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  .first {
+    display: none;
+  }
+  .middle {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 15px;
+    color: #222;
+  }
+  .last {
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .last svg {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 665px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .first {
+    font-size: 10px;
+  }
+  .middle {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 15px;
+    color: #222;
+    opacity: calc(50%);
+  }
+  .last {
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .last i {
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 665px;
+    font-size: 15px;
+    opacity: calc(50%);
+    color: #222;
+  }
+}
+
+/* responsive */

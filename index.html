@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="./icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- adding links  -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./styles/calendar.css" />
+    <script src="./scripts/daydatetime.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <!-- adding links  -->
+
+    <title>Full Year Events</title>
+  </head>
+  <body onload="updateClock()">
+    <div>
+      <!-- header  -->
+      <header>
+        <div class="navbar" id="nav">
+          <div class="first">
+            <h1>2022 Events</h1>
+          </div>
+          <div class="middle">
+            <div class="datetime">
+              <div class="date">
+                <span id="month">Month <span>,</span></span>
+                <span id="daynum">00</span>
+              </div>
+            </div>
+          </div>
+          <div class="last">
+            <a href="#" class="about">About</a>
+            <i class="bi bi-brightness-high" id="sun_icon"></i>
+          </div>
+        </div>
+      </header>
+      <!-- header  -->
+
+      <!-- calender  -->
+      <div class="hero">
+        <div id="calendar"></div>
+      </div>
+
+      <!-- calender  -->
+
+      <!-- footer  -->
+
+      <footer>
+        <p>2022-PRESENT © Anik</p>
+      </footer>
+    </div>
+    <!-- footer  -->
+
+    <!-- scripts -->
+    <script src="./scripts/theme.js"></script>
+    <script src="./scripts/evo-calendar.js"></script>
+    <script src="./scripts/evo-calendar.min.js"></script>
+    <script src="./scripts/events.js"></script>
+    <!-- scripts -->
+  </body>
+</html>
